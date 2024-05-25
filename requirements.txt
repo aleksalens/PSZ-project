@@ -1,0 +1,7 @@
+scrapy
+mysql mysql-connector-python
+pandas
+sqlalchemy
+pymysql
+matplotlib
+ipykernel
