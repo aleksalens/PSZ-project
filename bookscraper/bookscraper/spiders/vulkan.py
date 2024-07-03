@@ -35,10 +35,8 @@ class VulkanSpider(scrapy.Spider):
         else: 
             return None
             
-            
-
-    
-    
+          
+             
     def parse_book_page(self, response):        
         book = BookItem()
         
