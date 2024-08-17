@@ -5,7 +5,7 @@ import joblib
 from sklearn.metrics import mean_squared_error 
 
 # Povezivanje sa bazom podataka sa ociscenim podacima
-connection_string = 'mysql+pymysql://root:SQLAleksa12!@localhost:3306/'
+connection_string = 'mysql+pymysql://root:password@localhost:3306/' # Your SQL password instead of "password"
 engine = create_engine(connection_string + 'books_cleaned')
 
 # Citanje podataka iz tabele
